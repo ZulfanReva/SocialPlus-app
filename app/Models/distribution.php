@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class distribution extends Model
+class Distribution extends Model
 {
     protected $fillable = [
         'users_id', 'citizen_id', 'program_bansos_id', 'period_bansos_id',
@@ -23,11 +23,11 @@ class distribution extends Model
 
     public function programBansos()
     {
-        return $this->belongsTo(program_bansos::class);
+        return $this->belongsTo(ProgramBansos::class);
     }
 
     public function periodBansos()
     {
-        return $this->belongsTo(period_bansos::class);
+        return $this->belongsTo(PeriodBansos::class);
     }
 }

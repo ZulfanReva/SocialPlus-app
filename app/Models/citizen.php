@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class citizen extends Model
+class Citizen extends Model
 {
     protected $fillable = [
         'NIK', 'name', 'place_birth', 'date_birth', 'gender', 'address',

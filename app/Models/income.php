@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class income extends Model
+class Income extends Model
 {
     protected $fillable = ['name', 'score_income', 'is_active'];
 

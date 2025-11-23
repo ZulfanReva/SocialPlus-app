@@ -4,9 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class province extends Model
+class Province extends Model
 {
     protected $fillable = ['name'];
+
+    public function hasRole(string $role): bool
+    {
+        return $this->role === $role;
+    }
 
     public function regencies()
     {

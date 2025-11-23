@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('phone')->unique();
-            $table->foreignId('district_id')->constrained()->onDelete('cascade');
+            $table->foreignId('district_id')->nullable()->constrained()->onDelete('cascade');
             $table->enum('role', ['admin', 'officer'])->default('officer');
             $table->boolean('is_active')->default(false);
             $table->timestamp('email_verified_at')->nullable();

@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class priority_bansos extends Model
+class PriorityBansos extends Model
 {
     protected $fillable = ['label', 'score_min'];
 

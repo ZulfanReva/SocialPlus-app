@@ -4,12 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class relationship extends Model
+class Relationship extends Model
 {
     protected $fillable = ['name', 'score_relationship', 'is_active'];
 
     public function citizens()
     {
-        return $this->hasMany(citizen::class);
+        return $this->hasMany(Citizen::class);
     }
 }

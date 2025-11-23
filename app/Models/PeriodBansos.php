@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class period_bansos extends Model
+class PeriodBansos extends Model
 {
     protected $fillable = ['name'];
 
