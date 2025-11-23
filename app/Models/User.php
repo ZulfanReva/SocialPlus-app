@@ -45,4 +45,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function distributions()
+    {
+        return $this->hasMany(distribution::class, 'users_id');
+    }
 }
