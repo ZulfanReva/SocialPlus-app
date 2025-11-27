@@ -22,6 +22,9 @@ class DatabaseSeeder extends Seeder
             IncomeSeeder::class,
             WorkSeeder::class,
             RelationshipSeeder::class,
+            PriorityBansosSeeder::class,
+            PeriodBansosSeeder::class,
+            ProgramBansosSeeder::class,
             UserSeeder::class,
         ]);
     }
