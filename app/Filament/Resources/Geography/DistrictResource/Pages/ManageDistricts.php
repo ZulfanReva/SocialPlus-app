@@ -15,7 +15,7 @@ class ManageDistricts extends ManageRecords
     {
         return [
             Actions\CreateAction::make()
-            ->label('Create Kecamatan'),
+            ->label('New Kecamatan'),
         ];
     }
 }

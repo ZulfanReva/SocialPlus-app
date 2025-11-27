@@ -14,7 +14,7 @@ class ManageSubDistricts extends ManageRecords
     {
         return [
             Actions\CreateAction::make()
-            ->label('Create Kelurahan'),
+            ->label('New Kelurahan'),
         ];
     }
 }

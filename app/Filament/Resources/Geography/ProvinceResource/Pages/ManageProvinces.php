@@ -14,7 +14,7 @@ class ManageProvinces extends ManageRecords
     {
         return [
             Actions\CreateAction::make()
-            ->label('Create Provinsi'),
+            ->label('New Provinsi'),
         ];
     }
 }

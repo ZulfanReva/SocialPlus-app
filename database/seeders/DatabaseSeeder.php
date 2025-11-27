@@ -19,6 +19,9 @@ class DatabaseSeeder extends Seeder
             RegencySeeder::class,
             DistrictSeeder::class,
             SubDistrictSeeder::class,
+            IncomeSeeder::class,
+            WorkSeeder::class,
+            RelationshipSeeder::class,
             UserSeeder::class,
         ]);
     }

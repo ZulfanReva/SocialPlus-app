@@ -14,7 +14,7 @@ class ManageRegencies extends ManageRecords
     {
         return [
             Actions\CreateAction::make()
-            ->label('Create Kabupaten'),
+            ->label('New Kabupaten'),
         ];
     }
 }
