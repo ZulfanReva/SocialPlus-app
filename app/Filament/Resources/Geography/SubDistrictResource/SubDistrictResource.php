@@ -27,7 +27,7 @@ class SubDistrictResource extends Resource
 
     protected static ?string $model = SubDistrict::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-map';
 
     protected static ?string $navigationLabel = 'Kelurahan';
 

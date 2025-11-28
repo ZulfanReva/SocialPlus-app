@@ -26,7 +26,7 @@ class WorkResource extends Resource
 
     protected static ?string $model = Work::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-briefcase';
 
     protected static ?string $navigationLabel = 'Pekerjaan';
     public static ?int $navigationSort = 6;

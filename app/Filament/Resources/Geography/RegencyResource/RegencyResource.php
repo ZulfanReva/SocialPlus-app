@@ -27,7 +27,7 @@ class RegencyResource extends Resource
 
     protected static ?string $pluralLabel = 'Kabupaten'; // Tittle Page
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-map';
 
     protected static ?string $navigationLabel = 'Kabupaten';
 

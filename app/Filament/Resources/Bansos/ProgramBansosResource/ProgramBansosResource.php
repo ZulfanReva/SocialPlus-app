@@ -27,7 +27,7 @@ class ProgramBansosResource extends Resource
 
     protected static ?string $model = ProgramBansos::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-newspaper';
 
     protected static ?string $navigationLabel = 'Program Bansos';
     public static ?int $navigationSort = 10;

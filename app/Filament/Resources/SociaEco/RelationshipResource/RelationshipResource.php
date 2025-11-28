@@ -26,7 +26,7 @@ class RelationshipResource extends Resource
 
     protected static ?string $model = Relationship::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-heart';
 
     protected static ?string $navigationLabel = 'Status Hubungan';
     public static ?int $navigationSort = 8;

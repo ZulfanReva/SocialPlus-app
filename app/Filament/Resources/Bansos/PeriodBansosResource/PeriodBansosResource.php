@@ -27,7 +27,7 @@ class PeriodBansosResource extends Resource
 
     protected static ?string $model = PeriodBansos::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-calendar-days';
 
     protected static ?string $navigationLabel = 'Periode Bansos';
     public static ?int $navigationSort = 9;

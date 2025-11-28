@@ -27,7 +27,7 @@ class PriorityBansosResource extends Resource
 
     protected static ?string $model = PriorityBansos::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-sparkles';
 
     protected static ?string $navigationLabel = 'Prioritas Bansos';
     public static ?int $navigationSort = 11;
