@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\Regency;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class RegencySeeder extends Seeder
+class DistributionSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,9 +13,5 @@ class RegencySeeder extends Seeder
     public function run(): void
     {
         //
-        Regency::firstOrCreate([
-            'name' => 'Banjarmasin',
-            'province_id' => 1,
-        ]);
     }
 }

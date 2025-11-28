@@ -41,6 +41,11 @@ class WorkSeeder extends Seeder
             ['name' => 'Penata Rias/Busana', 'score_work' => 5],
         ];
 
-        DB::table('works')->insert($data);
+        foreach ($data as $work) {
+            DB::table('works')->updateOrInsert(
+                ['name' => $work['name']],
+                $work
+            );
+        }
     }
 }

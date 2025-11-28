@@ -15,6 +15,6 @@ class Income extends Model
 
     public function citizens()
     {
-        return $this->hasMany(citizen::class);
+        return $this->hasMany(Citizen::class);
     }
 }

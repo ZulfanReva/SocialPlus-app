@@ -22,6 +22,11 @@ class RelationshipSeeder extends Seeder
             ['name' => 'Belum Menikah', 'score_relationship' => 10],
         ];
 
-        DB::table('relationships')->insert($data);
+        foreach ($data as $relationship) {
+            DB::table('relationships')->updateOrInsert(
+                ['name' => $relationship['name']],
+                $relationship
+            );
+        }
     }
 }

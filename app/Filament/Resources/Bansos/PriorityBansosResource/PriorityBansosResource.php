@@ -2,7 +2,6 @@
 
 namespace App\Filament\Resources\Bansos\PriorityBansosResource;
 
-
 use Filament\Forms;
 use Filament\Tables;
 use Filament\Forms\Form;

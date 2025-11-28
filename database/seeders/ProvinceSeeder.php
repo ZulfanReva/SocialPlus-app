@@ -13,7 +13,7 @@ class ProvinceSeeder extends Seeder
     public function run(): void
     {
         //
-        Province::create([
+        Province::firstOrCreate([
             'name' => 'Kalimantan Selatan',
         ]);
     }

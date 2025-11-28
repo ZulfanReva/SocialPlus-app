@@ -25,6 +25,7 @@ class DatabaseSeeder extends Seeder
             PriorityBansosSeeder::class,
             PeriodBansosSeeder::class,
             ProgramBansosSeeder::class,
+            CitizenSeeder::class,
             UserSeeder::class,
         ]);
     }

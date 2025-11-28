@@ -15,11 +15,10 @@ class PriorityBansosSeeder extends Seeder
     public function run()
     {
         // Berdasarkan rentang: Rendah (0-59), Sedang (60-79), Tinggi (80-100)
-        DB::table('priority_bansos')->insert([
-            // Penting: Masukkan data dari skor tertinggi ke terendah
+        DB::table('priority_bansos')->upsert([
             ['label' => 'Tinggi', 'score_min' => 80],
             ['label' => 'Sedang', 'score_min' => 60],
             ['label' => 'Rendah', 'score_min' => 0],
-        ]);
+        ], ['label'], ['score_min']);
     }
 }

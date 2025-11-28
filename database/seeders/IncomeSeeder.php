@@ -24,6 +24,11 @@ class IncomeSeeder extends Seeder
             ['name' => '> 2jt', 'score_income' => 0],
         ];
 
-        DB::table('incomes')->insert($data);
+        foreach ($data as $income) {
+            DB::table('incomes')->updateOrInsert(
+                ['name' => $income['name']],
+                $income
+            );
+        }
     }
 }

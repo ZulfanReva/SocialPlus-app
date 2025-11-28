@@ -18,7 +18,7 @@ class Distribution extends Model
 
     public function citizen()
     {
-        return $this->belongsTo(citizen::class);
+        return $this->belongsTo(Citizen::class);
     }
 
     public function programBansos()
